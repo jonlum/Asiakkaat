@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+table {
+	width: 50%;
+	border-style: outset;
+	border-collapse: collapse;
+}
+
+thead th{
+	text-align: left;
+	border-style: none;
+	margin: 50px;
+	background-color: lightblue;
+}
+
+tbody td{
+	border: 1px solid;
+	border-collapse: collapse;
+	border-color: grey;
+}
+#uusiAsiakas, #takaisin, #listaus {
+	cursor: pointer;
+}
